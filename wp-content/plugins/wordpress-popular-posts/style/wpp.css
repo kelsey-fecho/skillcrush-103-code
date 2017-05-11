@@ -1,0 +1,87 @@
+/*
+Wordpress Popular Posts plugin stylesheet
+Developed by Hector Cabrera
+cabrerahector.com | @cabrerahector
+
+Use the following classes to style your popular posts list as you like.
+*/
+
+/* Styles the "Sorry, no data so far" message */
+.wpp-no-data {
+}
+
+/* UL - Popular Posts container styles */
+.wpp-list {
+}
+
+	/* LI - Post container styles */
+	.wpp-list li {
+		overflow:hidden;
+		float:none;
+		clear:both;
+	}
+
+	/* Styles for the popular post in view */
+	.wpp-list li.current {
+	}
+
+		/* Thumbnail styles */
+		.wpp-thumbnail {
+			display:inline;
+			float:left;
+			margin:0 5px 0 0;
+			border:none;
+		}
+
+		/* Title styles */
+		.wpp-post-title, .wpp-post-title:visited {
+			color: black;
+		}
+		.wpp-post-title:hover {
+			color: #45ac9d;
+		}
+
+		/* Excerpt styles */
+		.wpp-excerpt {
+			font-size: 11px;
+		}
+
+		/* Stats tag styles */
+		.post-stats {
+			display:block;
+			font-size:9px;
+			font-weight:bold;
+		}
+
+			/* Comments count styles */
+			.wpp-comments {
+			}
+
+			/* Views count styles */
+			.wpp-views {
+			}
+
+			/* Author styles */
+			.wpp-author, .wpp-author:visited, .wpp-author:hover {
+				color: black;
+			}
+
+			/* Post date styles */
+			.wpp-date {
+			}
+
+			/* Post category styles */
+			.wpp-category, .wpp-category:visited, .wpp-category:hover {
+				color: black;
+			}
+
+		/* WP-PostRatings styles */
+		.wpp-rating {
+		}
+
+		a, a:visited {
+			color: black;
+		}
+		a:hover {
+			color: #45ac9d;
+		}
